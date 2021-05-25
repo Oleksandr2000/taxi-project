@@ -1,0 +1,453 @@
+@media (max-width: 1200px)
+    .menu
+        .menu_item
+            padding-right: 16px
+        .menu_link
+            font-size: 13px
+    .fixed_menu
+        .contact_number
+            font-size: 19px
+    .advantage
+        &_text
+            width: 310px
+    .mobile
+        &_card
+            width: 300px
+@media (max-width: 992px)
+    .menu
+        .menu_item
+            padding-right: 13px
+        .menu_link
+            font-size: 10px
+    .fixed_menu
+        .uber_logo
+            width: 75%
+        .call_me
+            width: 132px
+            height: 36px
+            font-size: 12px
+    .advanteges
+        .advantage
+            flex-direction: column
+            &_item
+                margin: 0 auto
+            &_text
+                width: 100%
+                margin-left: 30px 
+                margin-right: 30px
+                text-align: center
+                margin-top: 30px
+            &_block_text
+                align-items: start
+    .mobile
+        &_card
+            width: 220px
+            height: 260px
+            &_descr
+                font-size: 16px
+            &_btn
+                margin-top: 40px
+    .reqirement
+        &_title
+            font-size: 30px
+            padding-bottom: 10px
+        .col-md-6
+            padding: 20px
+    footer
+        &_nav
+            font-size: 
+        .social_network_container
+            width: 20px
+            height: 20px
+
+@media (max-width: 767px)
+    .menu
+        position: fixed
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        top: 0
+        right: -100%
+        width: 35%
+        height: 100vh
+        background-color: rgba(0, 0, 0, 0.8)
+        padding: 20px 15px
+        transition: 0.6s all
+        &_active
+            right: 0
+        .menu_item
+            padding-right: 0
+            border: none
+            margin: 10px 0
+        .menu_link
+            font-size: 15px
+            text-decoration: none
+    .hamburger
+        display: block
+        position: absolute
+        right: 10px
+        top: 50%
+        transform: translateY(-50%)
+        width: 26px
+        span
+            display: block
+            width: 100%
+            height: 2px
+            background-color: #fff
+            margin: 4px
+        &_active
+            span
+                &:nth-child(1)
+                    transform: rotate(-90deg)
+                &:nth-child(2)
+                    transform: translateX(5px) rotate(-90deg) translateX(6px)
+                &:nth-child(3)
+                    transform: translateX(10px) rotate(-90deg) translateX(12px)
+    .fixed_menu
+        justify-content: space-around
+        .uber_logo
+            width: 100%
+            height: 16px
+        .uber_text
+            display: none
+        .contact_text
+            display: block
+            font-size: 9px
+        .contact_number
+            font-size: 15px
+        .call_me
+            width: 120px
+            height: 28px
+            font-size: 9px
+    .promo
+        min-height: 380px
+        h1
+            font-size: 22px
+        h2
+            font-size: 16px
+            padding-bottom: 90px
+        &_text
+            display: none
+        .send_reqest
+            width: 209px
+            height: 53px
+    .advanteges
+        h3
+            font-size: 26px
+        .advantage
+            flex-direction: column
+            &_item
+                margin: 0 auto
+            &_text
+                width: 100%
+                margin-left: 30px 
+                margin-right: 30px
+                text-align: center
+                margin-top: 30px
+            &_block_text
+                align-items: start
+    .mobile
+        &_title
+            font-weight: 700
+            font-size: 16px
+            line-height: 16px
+        &_subtitle
+            font-weight: 400
+            font-size: 14px
+            line-height: 21px
+        &_card
+            width: 220px
+            height: 260px
+            &_descr
+                font-size: 16px
+            &_btn
+                margin-top: 40px
+    .car
+        min-height: 400px 
+        padding-bottom: 50px
+        &_title
+            display: none
+        &_subtitle
+            display: none
+        &_block
+            margin: 35px 0px 20px 0px
+    .reqirement
+        min-height: 450px
+        padding: 22px 0px 33px 0px
+        &_title
+            font-weight: 700
+            font-size: 16px
+            line-height: 16px
+            padding-bottom: 10px
+        .blue_text
+            font-weight: 400
+            font-size: 16px
+            line-height: 24px
+        .red_text
+            font-weight: 400
+            font-size: 16px
+            line-height: 24px
+        li
+            font-size: 13px
+            line-height: 16.4px
+            font-weight: 300
+    .world
+        height: 360px
+        &_bg
+            height: 360px
+            padding: 26px 0px 29px 0px
+        &_title
+            font-size: 16px
+            line-height: 16px
+            font-weight: 700
+        &_subtitle
+            font-size: 14px
+            line-height: 21px
+            font-weight: 400
+        &_all_city
+            margin-top: 160px
+            a
+                font-weight: normal
+                font-size: 15px
+                line-height: 15px
+                color: #1FBAD6
+                text-decoration: none
+    footer
+        &_nav
+            font-size: 
+        .social_network_container
+            width: 20px
+            height: 20px
+
+@media (max-width: 575px)
+    .menu
+        position: fixed
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        top: 0
+        right: -100%
+        width: 50%
+        height: 100vh
+        background-color: rgba(0, 0, 0, 0.8)
+        padding: 20px 15px
+        transition: 0.6s all
+        &_active
+            right: 0
+        .menu_item
+            padding-right: 0
+            border: none
+            margin: 10px 0
+        .menu_link
+            font-size: 11px
+            text-decoration: none
+    .hamburger
+        display: block
+        position: absolute
+        right: 20px
+        top: 50%
+        transform: translateY(-50%)
+        width: 26px
+        span
+            display: block
+            width: 100%
+            height: 2px
+            background-color: #fff
+            margin: 4px
+        &_active
+            span
+                &:nth-child(1)
+                    transform: rotate(-90deg)
+                &:nth-child(2)
+                    transform: translateX(5px) rotate(-90deg) translateX(6px)
+                &:nth-child(3)
+                    transform: translateX(10px) rotate(-90deg) translateX(12px)
+    .fixed_menu
+        .uber_text
+            display: none
+        .uber_logo
+            margin-top: 11px
+            width: 130px
+            height: 15px
+        .contact_text
+            display: none
+        .contact_number
+            display: none
+        .call_me 
+            margin-top: 11px
+            width: 100px
+            height: 22px
+            font-size: 8px
+    .promo
+        min-height: 400px
+        h1
+            font-weight: 900
+            font-size: 30px
+            line-height: 40px
+        h2
+            font-weight: 700
+            font-size: 22px
+            line-height: 35px
+            padding-bottom: 90px 
+        &_text
+            display: none
+        .send_reqest
+            width: 210px
+            height: 50px
+            font-size: 10px
+            font-weight: normal
+            font-size: 16px
+            line-height: 50px
+    .advanteges
+        h3
+            font-size: 14px
+        .advantage
+            flex-direction: column
+            &_item
+                margin: 0 auto
+            &_text
+                margin-left: 30px 
+                margin-right: 30px
+                text-align: center
+                margin-top: 30px
+            &_block_text
+                align-items: start
+    .mobile
+        .mobile_specification
+            height: 260px
+            width: 290px
+            margin-bottom: 20px
+        &_title
+            font-weight: 700
+            font-size: 16px
+            line-height: 16px
+        &_subtitle
+            font-weight: 400
+            font-size: 14px
+            line-height: 21px
+        &_card
+            width: 290px
+            height: 254px
+            &_descr
+                font-size: 18px
+                line-height: 31px
+            &_btn
+                margin-top: 40px
+                width: 39px
+                height: 39px
+                font-size: 22px 
+    .car
+        min-height: 400px 
+        padding-bottom: 50px
+        &_title
+            display: none
+        &_subtitle
+            display: none
+        &_block
+            margin: 35px 0px 20px 0px
+    .reqirement
+        min-height: 900px
+        padding: 22px 0px 33px 0px
+        &_title
+            font-weight: 700
+            font-size: 16px
+            line-height: 16px
+            padding-bottom: 10px
+        .blue_text
+            font-weight: 400
+            font-style: 16px
+            line-height: 24px
+        .red_text
+            font-weight: 400
+            font-style: 16px
+            line-height: 24px
+        li
+            font-size: 13px
+            line-height: 16.4px
+            font-weight: 300
+    .world
+        height: 360px
+        &_bg
+            height: 360px
+            padding: 26px 0px 29px 0px
+        &_title
+            font-size: 16px
+            line-height: 16px
+            font-weight: 700
+        &_subtitle
+            font-size: 14px
+            line-height: 21px
+            font-weight: 400
+        &_all_city
+            margin-top: 160px
+            a
+                font-weight: normal
+                font-size: 10px
+                line-height: 15px
+                color: #1FBAD6
+                text-decoration: none
+        &_city_page
+            font-size: 12px
+            color: #16879b
+            padding: 10px 0px 60px 0px
+            text-align: center
+            line-height: 18px
+    footer
+        padding: 15px 0px 20px 0px
+        .social_network
+            display: none
+        .footer_nav
+            a
+                font-weight: normal
+                font-size: 12px
+                line-height: 15px
+                color: #1FBAD6
+                text-decoration: none 
+    .under_footer
+        &_nav
+            a
+                font-size: 7px
+        .language_container
+            .language
+                font-size: 8px
+    .modal
+        &__dialog
+            margin: 0 auto
+        &__content
+            width: 280px
+            margin: 0 auto
+            margin-top: 40px
+        &__title
+            font-size: 16px
+        &__close
+            font: size 22px
+        &__input
+            width: 180px
+            height: 30px
+            font-size: 14px
+        .btn
+            width: 180px
+            height: 30px
+    
+    .application
+        &__dialog
+            margin: 0 auto
+        &__content
+            width: 280px
+            margin: 0 auto
+            margin-top: 40px
+        &__title
+            font-size: 16px
+        &__close
+            font: size 22px
+        &__input
+            width: 180px
+            height: 30px
+            font-size: 14px
+        .btn
+            width: 180px
+            height: 30px
+
+
+                     
+
